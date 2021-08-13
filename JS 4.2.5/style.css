@@ -1,0 +1,50 @@
+.app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background:#C4C4C4;
+    padding: 62px 84px 72px 77px;
+}
+.includeList{
+    padding-top: 44px;
+}
+.listOfReposetories{
+    display: flex;
+    justify-content: space-between;
+    width: 503px;
+    height: 101px;
+    background: #E27BEB;
+    border: 1px solid black;
+    padding: 8px 16px;
+}
+li{
+    list-style-type: none;
+    font-size: 24px;
+    line-height: 28px;
+}
+.removeButton{
+    width: 50px;
+    height: 50px;
+    background: #ff0000;
+
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+.search-input{
+    width: 500px;
+    height: 61px;
+    font-size: 48px;
+    padding: 5px 13px;
+}
+.options{
+    width: 500px;
+    height: 44px;
+    font-size: 30px;
+    padding: 5px 13px;
+    background: #E3E3E3;
+}
+.options:hover{
+    background: #65CDF9;
+}
